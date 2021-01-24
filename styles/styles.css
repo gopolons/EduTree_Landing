@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 h1 {
     font-size: 3.25em;
 }
@@ -14,7 +13,7 @@ h1 {
     z-index: 10;
     position: relative;
 }
-=======
+
 button, button:active,
 button:focus, input {
 outline: none;
@@ -47,4 +46,3 @@ transition: transform 0.3s;
     transform: scale(1,1);
     }
     
->>>>>>> aea5b5a744374dd08948c114b19a68d4f049a14e
