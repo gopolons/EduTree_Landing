@@ -1,0 +1,32 @@
+button, button:active,
+button:focus, input {
+outline: none;
+}
+
+.navbutton {
+background-color: transparent;
+border: none;
+text-align: center;
+width: 100px;
+height: 40px;
+}
+
+.link {
+text-decoration: none;
+position: relative;
+color: black;
+}
+
+.link:before{
+position:absolute;
+bottom: -10px;
+content: " ";
+border-bottom: 4px solid rgb(3, 52, 99);
+transform: scale(0,1);
+width:100%;
+transition: transform 0.3s;
+}
+.link:hover:before{
+    transform: scale(1,1);
+    }
+    
