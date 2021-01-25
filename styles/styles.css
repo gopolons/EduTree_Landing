@@ -2,6 +2,14 @@ body {
     position: relative;
 }
 
+footer a {
+    text-decoration: none;
+    color: rgb(152, 168, 189);
+}
+
+footer a:hover {
+    color: rgb(125, 139, 156);
+}
 .centeralign {
     text-align: center;
 }
