@@ -18,6 +18,11 @@ p {
     background-color: #FBFCFE;
 }
 
+.b3 {
+    padding-right: 5rem;
+    padding-top: 5rem;
+}
+
 .padel {
     background-color: white;
     border-radius: 10px;
@@ -87,11 +92,10 @@ button:focus, input {
     height: 55px;
     width: 180px;
     border-color: transparent;
-    margin: 30px;
     font-weight: lighter;
+    transition-duration: 0.3s;
 }
 
 .getbutton:hover {
-    transition-duration: 0.3s;
     background-color: rgb(19, 92, 165);
 }
