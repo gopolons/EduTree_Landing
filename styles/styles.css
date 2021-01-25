@@ -35,6 +35,8 @@ p {
     background-color: #73FBD3;
 }
 
+
+
 .b5 {
     padding-left: 5rem;
     padding-top: 5rem;
@@ -144,13 +146,14 @@ button:focus, input {
 }
 
 .startbutton {
+    background-color: white;
     color: black;
     border-radius: 9px;
     font-size: 17px;
     height: 55px;
     width: 180px;
     border-color: transparent;
-    font-weight: lighter;
+    font-weight: bold;
     transition-duration: 0.3s;
 }
 
