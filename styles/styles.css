@@ -23,6 +23,10 @@ p {
     padding-top: 5rem;
 }
 
+.b4 {
+    background-color: #FBFCFE;
+}
+
 .padel {
     background-color: white;
     border-radius: 10px;
@@ -99,3 +103,4 @@ button:focus, input {
 .getbutton:hover {
     background-color: rgb(19, 92, 165);
 }
+
