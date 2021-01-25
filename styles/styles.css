@@ -22,6 +22,11 @@ p {
     color: rgb(152, 168, 189);
 }
 
+.b1 {
+    position: relative;
+    z-index: 1;
+}
+
 .b2 {
     background-color: #FBFCFE;
 }
@@ -107,6 +112,11 @@ button:focus, input {
     text-align: center;
     width: 100px;
     height: 40px;
+}
+
+.navhead {
+    position: relative;
+    z-index: 1;
 }
 
 .link {
