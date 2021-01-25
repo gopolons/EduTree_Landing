@@ -143,6 +143,22 @@ button:focus, input {
     background-color: rgb(19, 92, 165);
 }
 
+.startbutton {
+    color: black;
+    border-radius: 9px;
+    font-size: 17px;
+    height: 55px;
+    width: 180px;
+    border-color: transparent;
+    font-weight: lighter;
+    transition-duration: 0.3s;
+}
+
+.startbutton:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
 .footerdiv {
     width: 170px;
     text-align: center;
