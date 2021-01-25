@@ -121,3 +121,18 @@ button:focus, input {
     background-color: rgb(19, 92, 165);
 }
 
+.footerdiv {
+    width: 170px;
+    text-align: center;
+}
+
+.flink {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.flink:hover {
+    color: white;
+}
+
