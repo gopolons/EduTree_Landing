@@ -1,5 +1,18 @@
+body {
+    position: relative;
+}
+
+.centeralign {
+    text-align: center;
+}
+
 h1 {
     font-size: 3.25em;
+}
+
+.padel {
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px lightgray;
 }
 
 .z-index-1 {
