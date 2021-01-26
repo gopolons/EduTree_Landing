@@ -94,7 +94,6 @@ button:focus, input {
     background-color: transparent;
     border: none;
     text-align: center;
-    width: 100px;
     height: 40px;
 }
 
@@ -142,7 +141,7 @@ button:focus, input {
 .startbutton {
     background-color: transparent;
     color: black;
-    border-radius: 9px;
+    border-radius: 25px;
     font-size: 17px;
     height: 55px;
     width: 180px;
@@ -152,7 +151,7 @@ button:focus, input {
 }
 
 .startbutton:hover {
-    background-color: dodgerblue;
+    background-color: black;
     color: white;
 }
 
@@ -170,4 +169,14 @@ button:focus, input {
 .flink:hover {
     color: white;
 }
+
+.modal-backdrop {
+    background-color: white;
+    
+}
+
+.modal-backdrop.show {
+    opacity: 100%;
+}
+ 
 
