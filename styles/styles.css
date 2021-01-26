@@ -41,7 +41,6 @@ p {
 }
 
 .b5 {
-    padding-left: 5rem;
     padding-top: 5rem;
 }
 
@@ -92,8 +91,6 @@ p {
 
 .imgting {
     height: 75px;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 button, button:active,
