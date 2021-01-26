@@ -188,20 +188,15 @@ button:focus, input {
 }
 
 .startbutton {
-    background-color: transparent;
+    background-color: rgb(7, 255, 212);
     color: black;
     border-radius: 25px;
+    border-color: transparent;
     font-size: 17px;
     height: 55px;
     width: 180px;
-    border-color: transparent;
-    font-weight: bold;
+    font-weight: normal;
     transition-duration: 0.3s;
-}
-
-.startbutton:hover {
-    background-color: black;
-    color: white;
 }
 
 .footerdiv {
