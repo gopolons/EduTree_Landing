@@ -88,7 +88,7 @@
     </div>
   </div>
 <!-- Block 1 -->
-  <div class="container pt-5 pb-5 b1">
+  <div class="container pt-5 pb-2 b1">
       <div class="row pt-4">
           <div class="col text-center">
               <h1>Make your independent learning simple</h1>
@@ -100,7 +100,7 @@
           </div>
       </div>
       <div class="row justify-content-center">
-          <img src="styles/uiimage.png" style="width: 250px;" alt="">            
+          <img src="styles/uiimage.png" style="width: 250px;" height="450px" alt="">            
       </div>
       <div class="row justify-content-center">
         <button class="startbutton mt-3 mb-3">
@@ -122,18 +122,55 @@
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aspernatur consequuntur maiores sapiente placeat quis dolorem repellendus.</p>
           </div>
       </div>
+      
+      <div id="carouselExampleIndicators" class="carousel slide d-lg-none" data-ride="carousel" data-slide="true">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner pb-5 pt-5">
+          <div class="carousel-item active">
+            <div class="row justify-content-center">
+              <div class="col-6 padelcarousel">
+                <img src="/styles/iconcheck.png" height="75px" width="75px" alt="">
+                <h3>Intuitive interface</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea ab hic nisi provident commodi eaque harum ut, distinctio cum. Aut quaerat eveniet asperiores unde dolor modi magni quod iste itaque?</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-6 padelcarousel">
+                <img src="/styles/iconfile.png" height="75px" width="75px" alt="">
+                <h3>Performance tracking</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea ab hic nisi provident commodi eaque harum ut, distinctio cum. Aut quaerat eveniet asperiores unde dolor modi magni quod iste itaque?</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-6 padelcarousel">
+                <img src="/styles/iconpuzzle.png" height="75px" width="75px" alt="">
+                <h3>High quality content</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea ab hic nisi provident commodi eaque harum ut, distinctio cum. Aut quaerat eveniet asperiores unde dolor modi magni quod iste itaque?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="row justify-content-around pt-5">
-          <div class="col-xl-3 col-md-4 padel">
+          <div class="col-xl-3 col-md-4 padel d-none d-lg-block">
             <img src="/styles/iconcheck.png" height="75px" width="75px" alt="">
             <h3>Intuitive interface</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea ab hic nisi provident commodi eaque harum ut, distinctio cum. Aut quaerat eveniet asperiores unde dolor modi magni quod iste itaque?</p>
           </div>
-          <div class="col-xl-3 col-md-4 padel">
+          <div class="col-xl-3 col-md-4 padel d-none d-lg-block">
             <img src="/styles/iconfile.png" height="75px" width="75px" alt="">
             <h3>Performance tracking</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea ab hic nisi provident commodi eaque harum ut, distinctio cum. Aut quaerat eveniet asperiores unde dolor modi magni quod iste itaque?</p>
           </div>
-          <div class="col-xl-3 col-md-4 padel">
+          <div class="col-xl-3 col-md-4 padel d-none d-lg-block">
             <img src="/styles/iconpuzzle.png" height="75px" width="75px" alt="">
             <h3>High quality content</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea ab hic nisi provident commodi eaque harum ut, distinctio cum. Aut quaerat eveniet asperiores unde dolor modi magni quod iste itaque?</p>
@@ -171,13 +208,13 @@
 <!-- Block 5 -->
 <div class="container b5 pb-5">
   <div class="row">
-    <div class="col-xl-5 col-md-7">
+    <div class="col-lg-5 col-md-7">
       <h1 class="pb-5">Who we're looking for</h1>
         <div class="row reqblock">
           <div class="col-2">
             <img src="styles/icontick.png" class="imgting" alt="">
           </div>
-          <div class="col">
+          <div class="col-10">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima assumenda sapiente quos iure expedita a tenetur iste, aut consequatur? Ratione porro accusantium ab tenetur, rem veniam velit iure quaerat temporibus.</p>
           </div>
         </div>
@@ -206,34 +243,33 @@
         </div>
     </div>
     <div class="col-7">
-      
     </div>
   </div>
 </div>
 <!-- Block 6 -->
   <div class="container-fluid b6 pb-4 pt-5">
     <div class="row justify-content-center">
-      <div class="col-xl-4 col-md-6 text-center">
+      <div class="col-lg-4 col-md-7 text-center">
         <h1 class="pb-3">Drop A Message</h1>
         <p class="pb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum quos iste quaerat voluptas deserunt ratione saepe est quo unde! Suscipit, nihil non cum quas mollitia repellendus recusandae eligendi ea possimus?</p>
       </div>
     </div>
     <form action="">
       <div class="row justify-content-center pb-3">
-        <div class="col-4 form-group">
+        <div class="col-lg-4 col-md-6 form-group">
           <label for="exampleInputEmail1">Name</label>
           <input type="name" class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Enter name">
         </div>
       </div>
       <div class="row justify-content-center pb-3">
-        <div class="col-4 form-group">
+        <div class="col-lg-4 col-md-6 form-group">
           <label for="exampleInputEmail1">Email address</label>
           <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter email">
           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
       </div>
       <div class="row justify-content-center pb-3">
-        <div class="col-4 form-group">
+        <div class="col-lg-4 col-md-6 form-group">
           <label for="exampleFormControlTextarea1">Example textarea</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
@@ -257,15 +293,15 @@
 <!-- Footer -->
   <footer class="container pt-5 pb-5">
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-lg-3 col-md-3">
         <h3 class="mb-3">About SAAS Temp</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
             enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
-      <div class="col-md-2">
+      <div class="col-lg-2 col-md-1">
 
       </div>
-      <div class="col-md-3">
+      <div class="col-lg-3 col-md-3">
         <h3>Quick Link</h3>
           <div class="mt-3">
             <a href="#">Home</a>
@@ -283,7 +319,7 @@
             <a href="#">Contact Us</a>
           </div>  
       </div>
-      <div class="col-md-4">
+      <div class="col-lg-4 col-md-4">
         <h3 class="mb-3">Subscribe to our newsletter</h3>
         <form>
           <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter email">
@@ -301,23 +337,6 @@
         Designed by github.com/Temryakov
       </a>
     </div>
-    <!-- <div class='row'>
-      <div class='col-md footerdiv'>
-        <a href="#" class="flink">Home</a>  
-      </div>
-      <div class='col-md footerdiv'>
-        <a href="#" class="flink">Testimonials</a>  
-      </div>
-      <div class='col-md footerdiv'>
-        <a href="#" class="flink">Why Us</a>  
-      </div>
-      <div class='col-md footerdiv'>
-        <a href="#" class="flink">FAQ</a>  
-      </div>
-      <div class='col-md footerdiv'>
-        <a href="#" class="flink">Contact Us</a>  
-      </div>
-    </div> -->
   </nav>   
 </body>
 </html>
