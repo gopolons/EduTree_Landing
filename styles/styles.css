@@ -89,6 +89,43 @@ p {
     box-shadow: 0px 0px 15px lightgray;
 }
 
+/* Query for the image which doesn't otherwise work */
+@media only screen and (max-width: 320px) {
+    .imgting {
+        margin-top: 100%;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .imgting {
+        margin-top: 80%;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .imgting {
+        margin-top: 40%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .imgting {
+        margin-top: 15%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .imgting {
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .imgting {
+        margin-top: -5%;
+    }
+}
+
 .imgting {
     height: 75px;
 }
@@ -196,7 +233,7 @@ button:focus, input {
     background-color: rgba(70, 70, 70, 0.25);
 }
   
-  .carousel .carousel-indicators .active {
+.carousel .carousel-indicators .active {
     background-color: #444;
 }
 
