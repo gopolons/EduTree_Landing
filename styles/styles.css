@@ -119,11 +119,15 @@ button:focus, input {
     color: black;
 }
 
+.link:hover {
+    color: black;
+}
+
 .link:before{
     position: absolute;
     bottom: -10px;
     content: " ";
-    border-bottom: 4px solid rgb(3, 52, 99);
+    border-bottom: 4px solid rgb(7, 255, 212);
     transform: scale(0,1);
     width:100%;
     transition: transform 0.3s;
