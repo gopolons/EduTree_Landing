@@ -1,5 +1,5 @@
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 body {
@@ -20,6 +20,7 @@ footer a:hover {
 
 h1 {
     font-size: 3.25em;
+    font-weight: 500;
 }
 
 p {
