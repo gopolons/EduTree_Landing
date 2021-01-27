@@ -1,5 +1,9 @@
 * {
+<<<<<<< Updated upstream
     font-family: 'Source Sans Pro', sans-serif;
+=======
+    font-family: 'Chakra Petch', sans-serif;
+>>>>>>> Stashed changes
 }
 
 body {
@@ -176,32 +180,44 @@ button:focus, input {
     transform: scale(1,1);
 }
 
+.orange {
+    background-color: #f9d472;
+}
+
+.pinkish {
+    background-color: #f97297;
+}
+
+.purplelish {
+    background-color: #9172f9;
+}
+
+.diamond {
+    background-color: #72f9d4;
+}
+
 .getbutton {
-    background-color: dodgerblue;
-    color: white;
-    border-radius: 9px;
-    font-size: 17px;
-    height: 55px;
-    width: 180px;
-    border-color: transparent;
-    font-weight: lighter;
-    transition-duration: 0.3s;
-}
+  --notchSize: 12px;
 
-.getbutton:hover {
-    background-color: rgb(19, 92, 165);
-}
-
-.startbutton {
-    background-color: rgb(7, 255, 212);
     color: black;
-    border-radius: 25px;
+    border-radius: 0px;
     border-color: transparent;
     font-size: 17px;
     height: 55px;
     width: 180px;
     font-weight: normal;
-    transition-duration: 0.3s;
+  
+  clip-path: 
+    polygon(
+      0% var(--notchSize), 
+      var(--notchSize) 0%, 
+      calc(100% - var(--notchSize)) 0%, 
+      100% var(--notchSize), 
+      100% calc(100% - var(--notchSize)), 
+      calc(100% - var(--notchSize)) 100%, 
+      var(--notchSize) 100%, 
+      0% calc(100% - var(--notchSize))
+    );
 }
 
 .footerdiv {
