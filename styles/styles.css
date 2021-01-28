@@ -117,17 +117,48 @@ p {
     .imgting {
         margin-top: 15%;
     }
+
+    .treepic {
+        max-width: 70%;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
     .imgting {
         margin-top: 10%;
     }
+
+    .treepic {
+        max-width: 50%;
+    }
 }
 
 @media only screen and (min-width: 1440px) {
     .imgting {
         margin-top: -5%;
+    }
+    
+    .treepic {
+        max-width: 40%;
+    }
+    .positionanim {
+        max-width: 100%;
+    }
+}
+
+
+
+@media only screen and (min-width: 2560px) {
+    .imgting {
+        margin-top: -5%;
+    }
+    
+    .treepic {
+        max-width: 20%;
+    }
+
+    .positionanim {
+        max-width: 100%;
     }
 }
 
@@ -138,6 +169,10 @@ p {
 button, button:active,
 button:focus, input {
     outline: none;
+}
+
+.margin {
+    margin: auto;
 }
 
 .navbutton {
@@ -156,6 +191,22 @@ button:focus, input {
     text-decoration: none;
     position: relative;
     color: black;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.animation {
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
 }
 
 .link:hover {
