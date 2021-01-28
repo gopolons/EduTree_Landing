@@ -326,5 +326,10 @@ button:focus, input {
     background-color: #444;
 }
 
+/* Swiper */
 
+.swiper-container {
+    width: 600px;
+    height: 300px;
+}
 
