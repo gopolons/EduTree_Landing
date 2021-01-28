@@ -96,24 +96,46 @@ p {
 
 /* Query for the image which doesn't otherwise work */
 @media only screen and (max-width: 320px) {
+    .info h1 {
+        font-size: 1.4rem;
+    }
+    .imgting {
+        margin-top: 100%;
+    }
+}
+
+@media only screen and (min-width: 320px) {
+    .info h1 {
+        font-size: 1.4rem;
+    }
     .imgting {
         margin-top: 100%;
     }
 }
 
 @media only screen and (min-width: 375px) {
+    .info h1 {
+        font-size: 1.5rem;
+    }
     .imgting {
         margin-top: 80%;
     }
 }
 
 @media only screen and (min-width: 425px) {
+    .info h1 {
+        font-size: 1.5rem;
+    }
     .imgting {
         margin-top: 40%;
     }
 }
 
 @media only screen and (min-width: 768px) {
+    .info h1 {
+        font-size: 2.1rem;
+    }
+
     .imgting {
         margin-top: 15%;
     }
@@ -124,6 +146,10 @@ p {
 }
 
 @media only screen and (min-width: 1024px) {
+    .info h1 {
+        font-size: 2.7rem;
+    }
+
     .imgting {
         margin-top: 10%;
     }
